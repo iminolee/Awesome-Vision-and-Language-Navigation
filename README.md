@@ -49,6 +49,10 @@ navigation instructions in real environments** <br>
    *Gengze Zhou, Yicong Hong, Qi Wu* <br>
    AAAI, 2024. [[Paper]](https://arxiv.org/pdf/2305.16986) [[GitHub]](https://github.com/GengzeZhou/NavGPT)
 
+- **NavGPT-2: Unleashing Navigational Reasoning Capability for Large Vision-Language Models** <br>
+   *Gengze Zhou, Yicong Hong, Zun Wang, Xin Eric Wang, Qi Wu* <br>
+   arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2407.12366) [[GitHub]](https://github.com/GengzeZhou/NavGPT-2)
+
 - **Lookahead Exploration with Neural Radiance Representation for Continuous Vision-Language Navigation** <br>
    *Zihan Wang, Xiangyang Li, Jiahao Yang, Yeqi Liu, Junjie Hu, Ming Jiang, Shuqiang Jiang* <br>
    CVPR, 2024. [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Lookahead_Exploration_with_Neural_Radiance_Representation_for_Continuous_Vision-Language_Navigation_CVPR_2024_paper.pdf) [[GitHub]](https://github.com/MrZihan/HNR-VLN)
@@ -111,12 +115,31 @@ Eleni Miltsakaki, Dan Roth, Kostas Daniilidis* <br>
    ICCV, 2021. [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Think_Global_Act_Local_Dual-Scale_Graph_Transformer_for_Vision-and-Language_Navigation_CVPR_2022_paper.pdf) [[GitHub]](https://github.com/cshizhe/VLN-DUET) **Winner of the ICCV 2021 Workshop Human Interaction for Robotic Navigation REVERIE & SOON Challenges**
 
 ## Foundation Models
+- **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding** <br>
+   *Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova* <br>
+   arXiv, 2018. [[Paper]](https://arxiv.org/pdf/1810.04805) [[GitHub]](https://github.com/google-research/bert) [[Official Website]](https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/)
+
+- **CLIP: Learning Transferable Visual Models From Natural Language Supervision** <br>
+   *Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever* <br>
+   arXiv, 2021. [[Paper]](https://arxiv.org/pdf/2103.00020) [[GitHub]](https://github.com/openai/CLIP) [[Official Website]](https://openai.com/index/clip/)
+
+- **InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning** <br>
+   *Wenliang Dai, Junnan Li, Dongxu Li, Anthony Meng Huat Tiong, Junqi Zhao, Weisheng Wang, Boyang Li, Pascale Fung, Steven Hoi* <br>
+   arXiv, 2023. [[Paper]](https://arxiv.org/pdf/2305.06500) [[GitHub]](https://github.com/salesforce/LAVIS) [[Project Page]](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip)
+
+- **BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models** <br>
+   *Junnan Li, Dongxu Li, Silvio Savarese, Steven Hoi* <br>
+   arXiv, 2023. [[Paper]](https://arxiv.org/pdf/2301.12597) [[GitHub]](https://github.com/salesforce/LAVIS) [[Project Page]](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)
+
 - **ViNT: A Foundation Model for Visual Navigation** <br>
    *Dhruv Shah, Ajay Sridhar, Nitish Dashora, Kyle Stachowicz, Kevin Black, Noriaki Hirose, Sergey Levine* <br>
    CoRL, 2023. [[Paper]](https://arxiv.org/pdf/2306.14846) [[GitHub]](https://github.com/robodhruv/visualnav-transformer) [[Project Page]](https://general-navigation-models.github.io/vint/index.html)
 
 ## Tools and Libraries
 A list of tools and libraries that can aid in VLN research and development.
+
+- **[Transformers] State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow** <br>
+[[GitHub]](https://github.com/huggingface/transformers)[[Official Website]](https://huggingface.co/docs/transformers/index)
 
 - **[LangChain] A framework for developing applications powered by large language models (LLMs)** <br>
 [[GitHub]](https://github.com/langchain-ai/langchain)[[Official Website]](https://python.langchain.com/v0.1/docs/get_started/introduction)
