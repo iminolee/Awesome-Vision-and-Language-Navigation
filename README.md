@@ -1,11 +1,12 @@
 # Awesome-Vision-and-Language-Navigation
 
-`Updated on 2024.07.11`
+`Updated on 2024.10.26`
 
 This repo tracks the research papers and codes related to **Vision-and-Language Navigation (VLN)**. The repository will be continuously updated to keep up with the advancements in VLN. Feel free to follow and star!
 
 ## Table of Contents
-- [Introduction](#introduction)
+- [News](#news)
+- [Surveys](#surveys)
 - [Datasets and Simulators](#datasets-and-simulators)
 - [Papers and Codes](#papers-and-codes)
    - [2024](#2024)
@@ -17,13 +18,30 @@ This repo tracks the research papers and codes related to **Vision-and-Language 
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
-## Introduction
-This repository aims to provide a comprehensive and up-to-date list of resources for Vision-and-Language (VLN). VLN is an emerging field that integrates computer vision, natural language processing, and robotics to enable agents to navigate environments using linguistic instructions.
+## News
+* **AI Meets Autonomy: Vision, Language, and Autonomous Systems Workshop** is held at the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024), in Abu Dhabi, UAE on Oct.14, 2024. <br>
+[[Official Website]](https://www.ai-meets-autonomy.com/iros-workshop)
+
+## Surveys
+
+- **Vision-and-Language Navigation Today and Tomorrow: A Survey in the Era of Foundation Models** <br>
+*Yue Zhang, Ziqiao Ma, Jialu Li, Yanyuan Qiao, Zun Wang, Joyce Chai, Qi Wu, Mohit Bansal, Parisa Kordjamshidi* <br>
+arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2407.07035)
+
+- **Large Language Models for Robotics: Opportunities, Challenges, and Perspectives** <br>
+*Jiaqi Wang, Zihao Wu, Yiwei Li, Hanqi Jiang, Peng Shu, Enze Shi, Huawen Hu, Chong Ma, Yiheng Liu, Xuhui Wang, Yincheng Yao, Xuan Liu, Huaqin Zhao, Zhengliang Liu, Haixing Dai, Lin Zhao, Bao Ge, Xiang Li, Tianming Liu, Shu Zhang* <br>
+arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2401.04334)
+
+- **Large Language Models for Robotics: Opportunities, Challenges, and Perspectives** <br>
+*Jiaqi Wang, Zihao Wu, Yiwei Li, Hanqi Jiang, Peng Shu, Enze Shi, Huawen Hu, Chong Ma, Yiheng Liu, Xuhui Wang, Yincheng Yao, Xuan Liu, Huaqin Zhao, Zhengliang Liu, Haixing Dai, Lin Zhao, Bao Ge, Xiang Li, Tianming Liu, Shu Zhang* <br>
+arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2401.04334)
 
 ## Datasets and Simulators
+
 In VLN tasks, the utilized datasets provide visual assets and scenes, and simulators render these visual assets and provide an environment for the VLN agent. This section will introduce some VLN datasets and simulators commonly used in VLN research.
 
 ### Datasets
+
 - **[Matterport3D dataset] Learning from RGB-D Data in Indoor Environments** <br>
    *Angel Chang, Angela Dai, Thomas Funkhouser, Maciej Halber, Matthias Nießner, Manolis Savva, Shuran Song, Andy Zeng, Yinda Zhang* <br>
    3DV, 2017. [[Paper]](https://arxiv.org/pdf/1709.06158) [[GitHub]](https://github.com/niessner/Matterport)[[Project Page]](https://bringmeaspoon.org/)
@@ -45,6 +63,55 @@ navigation instructions in real environments** <br>
 
 ## Papers and Codes
 ### 2024
+
+- **ReMEmbR: Building and Reasoning Over Long-Horizon Spatio-Temporal Memory for Robot Navigation** <br>
+*Abrar Anwar, John Welsh, Joydeep Biswas, Soha Pouya, Yan Chang* <br>
+arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2409.13682) [[GitHub]](https://github.com/NVIDIA-AI-IOT/remembr)
+
+- **Tag Map: A Text-Based Map for Spatial Reasoning and Navigation with Large Language Models** <br>
+*Mike Zhang, Kaixian Qu, Vaishakh Patil, Cesar Cadena, Marco Hutter* <br>
+arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2409.15451) [[Project Page]](https://tag-mapping.github.io/)
+
+- **Adaptive Zone-aware Hierarchical Planner for Vision-Language Navigation** <br>
+*Chen Gao, Xingyu Peng, Mi Yan, He Wang, Lirong Yang, Haibing Ren, Hongsheng Li, Si Liu* <br>
+CVPR, 2023. [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Adaptive_Zone-Aware_Hierarchical_Planner_for_Vision-Language_Navigation_CVPR_2023_paper.pdf) [[GitHub]](https://github.com/chengaopro/AZHP)
+
+- **MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation** <br>
+*Jiaqi Chen, Bingqian Lin, Ran Xu, Zhenhua Chai, Xiaodan Liang, Kwan-Yee K. Wong* <br>
+ACL, 2024. [[Paper]](https://arxiv.org/pdf/2401.07314) [[GitHub]](https://github.com/chen-judge/MapGPT/)
+
+- **CANVAS: Commonsense-Aware Navigation System for Intuitive Human-Robot Interaction** <br>
+*Suhwan Choi, Yongjun Cho, Minchan Kim, Jaeyoon Jung, Myunchul Joe, Yubeen Park, Minseo Kim, Sungwoong Kim, Sungjae Lee, Hwiseong Park, Jiwan Chung, Youngjae Yu* <br>
+arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2410.01273) [[GitHub]](https://worv-ai.github.io/canvas/)
+
+- **HM3D-OVON: A Dataset and Benchmark for Open-Vocabulary Object Goal Navigation** <br>
+*Naoki Yokoyama, Ram Ramrakhya, Abhishek Das, Dhruv Batra, Sehoon Ha* <br>
+IROS, 2024. [[Paper]](https://arxiv.org/pdf/2409.14296) [[GitHub]](https://github.com/naokiyokoyama/ovon)
+
+- **VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation** <br>
+*Naoki Yokoyama, Sehoon Ha, Dhruv Batra, Jiuguang Wang, Bernadette Bucher* <br>
+ICRA, 2024. [[Paper]](https://arxiv.org/pdf/2312.03275) [[GitHub]](https://github.com/bdaiinstitute/vlfm)
+
+- **Mind the Error! Detection and Localization of Instruction Errors in Vision-and-Language Navigation** <br>
+*Francesco Taioli, Stefano Rosa, Alberto Castellini, Lorenzo Natale, Alessio Del Bue, Alessandro Farinelli, Marco Cristani, Yiming Wang* <br>
+IROS, 2024. [[Paper]](https://arxiv.org/pdf/2403.10700) [[GitHub]](https://github.com/intelligolabs/R2RIE-CE)
+
+- **MC-GPT: Empowering Vision-and-Language Navigation with Memory Map and Reasoning Chains** <br>
+*Zhaohuan Zhan, Lisha Yu, Sijie Yu, Guang Tan* <br>
+arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2405.10620)
+
+- **Continual Vision-and-Language Navigation** <br>
+*Seongjun Jeong, Gi-Cheon Kang, Seongho Choi, Joochan Kim, Byoung-Tak Zhang* <br>
+arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2403.15049)
+
+- **Open-Nav: Exploring Zero-Shot Vision-and-Language Navigation in Continuous Environment with Open-Source LLMs** <br>
+*Yanyuan Qiao, Wenqi Lyu, Hui Wang, Zixu Wang, Zerui Li, Yuan Zhang, Mingkui Tan, Qi Wu* <br>
+arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2409.18794)
+
+- **Find Everything: A General Vision Language Model Approach to Multi-Object Search** <br>
+*Daniel Choi, Angus Fung, Haitong Wang, Aaron Hao Tan* <br>
+arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2410.00388) [[GitHub]](https://find-all-my-things.github.io/)
+
 - **NavGPT: Explicit Reasoning in Vision-and-Language Navigation with Large Language Models** <br>
    *Gengze Zhou, Yicong Hong, Qi Wu* <br>
    AAAI, 2024. [[Paper]](https://arxiv.org/pdf/2305.16986) [[GitHub]](https://github.com/GengzeZhou/NavGPT)
@@ -70,6 +137,7 @@ navigation instructions in real environments** <br>
    ICRL, 2024. [[Paper]](https://openreview.net/pdf?id=EnXJfQqy0K) [[GitHub]](https://github.com/UMass-Foundation-Model/Co-LLM-Agents)
 
 ### 2023
+
 - **LANA: A Language-Capable Navigator for Instruction Following and Generation** <br>
    *Xiaohan Wang, Wenguan Wang, Jiayi Shao, Yi Yang* <br>
    CVPR, 2023. [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_LANA_A_Language-Capable_Navigator_for_Instruction_Following_and_Generation_CVPR_2023_paper.pdf) [[GitHub]](https://github.com/wxh1996/LANA-VLN)
@@ -84,6 +152,7 @@ Vision-and-Language Ability of Foundation Models** <br>
    arXiv, 2023. [[Paper]](https://arxiv.org/pdf/2308.07997)
 
 ### 2022
+
 - **Sim-2-Sim for Vision-and-Language Navigation in Continuous Environments** <br>
    *Jacob Krantz, Stefan Lee* <br>
    ECCV, 2022. [[Paper]](https://arxiv.org/pdf/2204.09667) [[GitHub]](https://github.com/jacobkrantz/Sim2Sim-VLNCE)
@@ -102,6 +171,7 @@ Eleni Miltsakaki, Dan Roth, Kostas Daniilidis* <br>
    CVPR, 2022. [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Georgakis_Cross-Modal_Map_Learning_for_Vision_and_Language_Navigation_CVPR_2022_paper.pdf) [[GitHub]](https://github.com/ggeorgak11/CM2)
 
 ### 2021
+
 - **SOON: Scenario Oriented Object Navigation with Graph-based Exploration** <br>
    *Fengda Zhu, Xiwen Liang, Yi Zhu, Qizhi Yu, Xiaojun Chang1, Xiaodan Liang* <br>
    CVPR, 2021. [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_SOON_Scenario_Oriented_Object_Navigation_With_Graph-Based_Exploration_CVPR_2021_paper.pdf) [[GitHub]](https://github.com/ZhuFengdaaa/SOON) [[Project Page]](https://scenario-oriented-object-navigation.github.io/)
@@ -112,9 +182,18 @@ Eleni Miltsakaki, Dan Roth, Kostas Daniilidis* <br>
 
 - **Think global, act local: Dual-scale graph transformer for vision-and-language navigation** <br>
    *Shizhe Chen, Pierre-Louis Guhur, Makarand Tapaswi, Cordelia Schmid, Ivan Laptev* <br>
-   ICCV, 2021. [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Think_Global_Act_Local_Dual-Scale_Graph_Transformer_for_Vision-and-Language_Navigation_CVPR_2022_paper.pdf) [[GitHub]](https://github.com/cshizhe/VLN-DUET) **Winner of the ICCV 2021 Workshop Human Interaction for Robotic Navigation REVERIE & SOON Challenges**
+   ICCV, 2021. [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Think_Global_Act_Local_Dual-Scale_Graph_Transformer_for_Vision-and-Language_Navigation_CVPR_2022_paper.pdf) [[GitHub]](https://github.com/cshizhe/VLN-DUET) *Winner of the ICCV 2021 Workshop Human Interaction for Robotic Navigation REVERIE & SOON Challenges*
+
+- **History Aware Multimodal Transformer for Vision-and-Language Navigation** <br>
+*Shizhe Chen, Pierre-Louis Guhur, Cordelia Schmid, Ivan Laptev* <br>
+NIPS, 2021. [[Paper]](https://arxiv.org/pdf/2110.13309) [[GitHub]](https://github.com/cshizhe/VLN-HAMT)
 
 ## Foundation Models
+
+- **VILA: On Pre-training for Visual Language Models** <br>
+*Ji Lin, Hongxu Yin, Wei Ping, Pavlo Molchanov, Mohammad Shoeybi, Song Han* <br>
+CVPR, 2024. [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Lin_VILA_On_Pre-training_for_Visual_Language_Models_CVPR_2024_paper.pdf) [[GitHub]](https://github.com/NVlabs/VILA) [[HuggingFace]](https://huggingface.co/collections/Efficient-Large-Model/vila-on-pre-training-for-visual-language-models-65d8022a3a52cd9bcd62698e)
+
 - **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding** <br>
    *Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova* <br>
    arXiv, 2018. [[Paper]](https://arxiv.org/pdf/1810.04805) [[GitHub]](https://github.com/google-research/bert) [[Official Website]](https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/)
@@ -136,7 +215,6 @@ Eleni Miltsakaki, Dan Roth, Kostas Daniilidis* <br>
    CoRL, 2023. [[Paper]](https://arxiv.org/pdf/2306.14846) [[GitHub]](https://github.com/robodhruv/visualnav-transformer) [[Project Page]](https://general-navigation-models.github.io/vint/index.html)
 
 ## Tools and Libraries
-A list of tools and libraries that can aid in VLN research and development.
 
 - **[Transformers] State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow** <br>
 [[GitHub]](https://github.com/huggingface/transformers)[[Official Website]](https://huggingface.co/docs/transformers/index)
@@ -145,7 +223,9 @@ A list of tools and libraries that can aid in VLN research and development.
 [[GitHub]](https://github.com/langchain-ai/langchain)[[Official Website]](https://python.langchain.com/v0.1/docs/get_started/introduction)
 
 ## Acknowledgements
+
 I would like to thank all the researchers and developers who have contributed to the field of Vision-and-Language Navigation.
 
 ## Contact
+
 If you have any suggestions for this repository, please create an issue or email **mino@inha.edu**.
