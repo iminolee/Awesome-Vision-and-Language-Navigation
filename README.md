@@ -55,6 +55,10 @@ navigation instructions in real environments** <br>
    *Alexander Ku, Peter Anderson, Roma Patel, Eugene le, Jason Baldridge* <br>
    EMNLP, 2020. [[Paper]](https://arxiv.org/pdf/2010.07954) [[GitHub]](https://github.com/google-research-datasets/RxR)
 
+- **HM3D-OVON: A Dataset and Benchmark for Open-Vocabulary Object Goal Navigation** <br>
+*Naoki Yokoyama, Ram Ramrakhya, Abhishek Das, Dhruv Batra, Sehoon Ha* <br>
+IROS, 2024. [[Paper]](https://arxiv.org/pdf/2409.14296) [[GitHub]](https://github.com/naokiyokoyama/ovon)
+
 ### Simulators
 - **[Habitat3.0 simulator] HABITAT 3.0: A CO-HABITAT FOR HUMANS, AVATARS AND ROBOTS** <br>
    *Xavi Puig, Eric Undersander, Andrew Szot, Mikael Dallaire Cote
@@ -83,10 +87,6 @@ ACL, 2024. [[Paper]](https://arxiv.org/pdf/2401.07314) [[GitHub]](https://github
 - **CANVAS: Commonsense-Aware Navigation System for Intuitive Human-Robot Interaction** <br>
 *Suhwan Choi, Yongjun Cho, Minchan Kim, Jaeyoon Jung, Myunchul Joe, Yubeen Park, Minseo Kim, Sungwoong Kim, Sungjae Lee, Hwiseong Park, Jiwan Chung, Youngjae Yu* <br>
 arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2410.01273) [[GitHub]](https://worv-ai.github.io/canvas/)
-
-- **HM3D-OVON: A Dataset and Benchmark for Open-Vocabulary Object Goal Navigation** <br>
-*Naoki Yokoyama, Ram Ramrakhya, Abhishek Das, Dhruv Batra, Sehoon Ha* <br>
-IROS, 2024. [[Paper]](https://arxiv.org/pdf/2409.14296) [[GitHub]](https://github.com/naokiyokoyama/ovon)
 
 - **VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation** <br>
 *Naoki Yokoyama, Sehoon Ha, Dhruv Batra, Jiuguang Wang, Bernadette Bucher* <br>
