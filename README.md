@@ -192,6 +192,10 @@ In VLN tasks, the utilized datasets provide visual assets and scenes, and simula
    ICRL, 2024. [[Paper]](https://openreview.net/pdf?id=EnXJfQqy0K) [[GitHub]](https://github.com/UMass-Foundation-Model/Co-LLM-Agents)
 
 ### 2023
+- **Frontier semantic exploration for visual target navigation** <br>
+   *Bangguo Yu, Hamidreza Kasaei, Ming Cao* <br>
+   ICRA, 2023. [[Paper]](https://arxiv.org/pdf/2304.05506) [[GitHub]](https://github.com/ybgdgh/Frontier-Semantic-Exploration)
+
 - **GrASPE: Graph based Multimodal Fusion for Robot Navigation in Outdoor Environments** <br>
    *Kasun Weerakoon, Adarsh Jagan Sathyamoorthy, Jing Liang, Tianrui Guan, Utsav Patel, Dinesh Manocha* <br>
    RA-L, 2023. [[Paper]](https://arxiv.org/pdf/2209.05722)
