@@ -1,6 +1,6 @@
 # Awesome-Vision-and-Language-Navigation
 
-`Updated on 2025.01.09`
+`Updated on 2025.03.10`
 
 This repo tracks the research papers and codes related to **Vision-and-Language Navigation (VLN)**. The repository will be continuously updated to keep up with the advancements in VLN. Feel free to follow and star!
 
@@ -14,19 +14,22 @@ This repo tracks the research papers and codes related to **Vision-and-Language 
    - [2023](#2023)
    - [2022](#2022)
    - [2021](#2021)
-- [Foundation Models](#foundation-models)
+- [Foundation Models](#visual-language-foundation-models)
 - [Tools and Libraries](#tools-and-libraries)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 ## News
+* **Workshop on Foundation Models and Neuro-Symbolic AI for Robotics** is held at the 2025 IEEE International Conference on Robotics and Automation (ICRA 2025), in Atlanta, USA on May.19, 2025. <br>
+[[Official Website]](https://sairlab.org/icra25/)
+
 * **AI Meets Autonomy: Vision, Language, and Autonomous Systems Workshop** is held at the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024), in Abu Dhabi, UAE on Oct.14, 2024. <br>
 [[Official Website]](https://www.ai-meets-autonomy.com/iros-workshop)
 
 * **Vision-Language Models for Navigation and Manipulation (VLMNM)** is held at 2024 IEEE International Conference on Robotics and Automation (ICRA 2024), in Yokohaba, Japan on May.17, 2024. <br>
 [[Official Website]](https://vlmnm-workshop.github.io/)
 
-## Surveys
+## Survey
 - **Vision-and-Language Navigation Today and Tomorrow: A Survey in the Era of Foundation Models** <br>
    *Yue Zhang, Ziqiao Ma, Jialu Li, Yanyuan Qiao, Zun Wang, Joyce Chai, Qi Wu, Mohit Bansal, Parisa Kordjamshidi* <br>
    arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2407.07035)
@@ -65,6 +68,10 @@ In VLN tasks, the utilized datasets provide visual assets and scenes, and simula
 , Tsung-Yen Yang, Ruslan Partsey, Ruta Desai, Alexander William Clegg, Michal Hlavac, So Yeon Min, Vladimír Vondruš, Theophile Gervet, Vincent-Pierre Berges, John M. Turner, Oleksandr Maksymets, Zsolt Kira, Mrinal Kalakrishnan, Jitendra Malik, Devendra Singh Chaplot, Unnat Jain, Dhruv Batra, Akshara Rai, Roozbeh Mottaghi* <br>
    arXiv, 2023. [[Paper]](https://arxiv.org/pdf/2310.13724) [[GitHub]](https://github.com/facebookresearch/habitat-sim/) [[Project Page]](https://aihabitat.org/habitat3/)
 
+- **Vision-Language Navigation Benchmark in Isaac Lab** <br>
+   *An-Chieh Cheng, Yandong Ji, Zhaojing Yang, Zaitian Gongye, Xueyan Zou, Jan Kautz, Erdem Bıyık, Hongxu Yin, Sifei Liu, Xiaolong Wang*
+   [[GitHub]](https://github.com/yang-zj1026/VLN-CE-Isaac) [[Project Page]](https://navila-bot.github.io/)
+
 - **UnralZoo: Enriching Photo-realistic Virtual Worlds for Embodied AI** <br>
    *Fangwei Zhong, Kui Wu, Churan Wang, Hao Chen, Hai Ci, Zhoujun Li, Yizhou Wang* <br>
    arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2412.20977) [[GitHub]](https://github.com/UnrealZoo/unrealzoo-gym) [[Project Page]](http://unrealzoo.site/)
@@ -73,11 +80,29 @@ In VLN tasks, the utilized datasets provide visual assets and scenes, and simula
    *Genesis Authors* <br>
    2024. [[Paper]]() [[GitHub]](https://github.com/Genesis-Embodied-AI/Genesis) [[Project Page]](https://genesis-embodied-ai.github.io/)
 
+- **Cosmos World Foundation Model Platform for Physical AI** <br>
+   *NVIDIA* <br>
+   arXiv, 2025. [[Paper]](https://arxiv.org/pdf/2501.03575) [[GitHub]](https://github.com/NVIDIA/Cosmos) [[HuggingFace]](https://huggingface.co/collections/nvidia/cosmos-6751e884dc10e013a0a0d8e6)
+
 ## Papers and Codes
 ### 2025
--
+- **3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning** <br>
+   *Yuncong Yang, Han Yang, Jiachen Zhou, Peihao Chen, Hongxin Zhang, Yilun Du, Chuang Gan* <br>
+   CVPR, 2025. [[Paper]](https://arxiv.org/pdf/2411.17735) [[GitHub]](https://github.com/UMass-Embodied-AGI/3D-Mem)
+
+- **EfficientEQA: An Efficient Approach for Open Vocabulary Embodied Question Answering** <br>
+   *Kai Cheng, Zhengyuan Li, Xingpeng Sun, Byung-Cheol Min, Amrit Singh Bedi, Aniket Bera* <br>
+   IROS, 2025. [[Paper]](https://arxiv.org/pdf/2410.20263)
 
 ### 2024
+- **E2Map: Experience-and-Emotion Map for Self-Reflective Robot Navigation with Language Models** <br>
+   *Chan Kim, Keonwoo Kim, Mintaek Oh, Hanbi Baek, Jiyang Lee, Donghwi Jung, Soojin Woo, Younkyung Woo, John Tucker, Roya Firoozi, Seung-Woo Seo, Mac Schwager, Seong-Woo Kim* <br>
+   arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2409.10027) [[GitHub]](https://github.com/knwoo/e2map)
+
+- **Autonomous Exploration and Semantic Updating of Large-Scale Indoor Environments with Mobile Robots** <br>
+   *Sai Haneesh Allu, Itay Kadosh, Tyler Summers, Yu Xiang* <br>
+   arXiv, 2024. [[Paper]](https://arxiv.org/pdf/2409.15493) [[GitHub]](https://github.com/IRVLUTD/AutoX-SemMap)
+
 - **Bridging Zero-shot Object Navigation and Foundation Models through Pixel-Guided Navigation Skill** <br>
    *Cai, Wenzhe; Huang, Siyuan; Cheng, Guangran; Long, Yuxing; Gao, Peng; Sun, Changyin; Dong, Hao* <br>
    ICRA, 2024. [[Paper]](https://arxiv.org/pdf/2309.10309) [[GitHub]](https://github.com/wzcai99/Pixel-Navigator)
@@ -222,12 +247,7 @@ Eleni Miltsakaki, Dan Roth, Kostas Daniilidis* <br>
    *Shizhe Chen, Pierre-Louis Guhur, Cordelia Schmid, Ivan Laptev* <br>
    NIPS, 2021. [[Paper]](https://arxiv.org/pdf/2110.13309) [[GitHub]](https://github.com/cshizhe/VLN-HAMT)
 
-## Foundation Models
-- **Cosmos World Foundation Model Platform for Physical AI** <br>
-   *NVIDIA* <br>
-   arXiv, 2025. [[Paper]](https://arxiv.org/pdf/2501.03575) [[GitHub]](https://github.com/NVIDIA/Cosmos) [[HuggingFace]](https://huggingface.co/collections/nvidia/cosmos-6751e884dc10e013a0a0d8e6)
-
-
+## Visual-Language Foundation Models
 - **VILA: On Pre-training for Visual Language Models** <br>
    *Ji Lin, Hongxu Yin, Wei Ping, Pavlo Molchanov, Mohammad Shoeybi, Song Han* <br>
    CVPR, 2024. [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Lin_VILA_On_Pre-training_for_Visual_Language_Models_CVPR_2024_paper.pdf) [[GitHub]](https://github.com/NVlabs/VILA) [[HuggingFace]](https://huggingface.co/collections/Efficient-Large-Model/vila-on-pre-training-for-visual-language-models-65d8022a3a52cd9bcd62698e)
